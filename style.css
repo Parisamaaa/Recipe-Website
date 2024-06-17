@@ -1,0 +1,312 @@
+
+
+body{
+    background-color: rgb(235, 235, 235);
+    padding:0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.header-container{
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 20%;
+    padding-top: 20px ;
+    padding-bottom: 1px; */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-container .icon{
+    font-size: 3em;
+}
+
+.header-container li{
+    list-style-type: none;
+    
+}
+
+.header-container ul{
+    padding: 0px;
+    display: flex;
+}
+
+.header-intro{
+    font-weight: bolder;
+    font-size: 45px;
+    margin-left: 0px;
+
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.navbar a{
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+
+
+.navbar a:hover{
+    background-color: gray;
+}
+
+
+.navbar li{
+    float: left;
+}
+
+
+.main{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+#box {
+    border : 0px solid;
+    height: 250px;
+    width:400px;
+    background-color: white;
+    position: relative;
+    top: -100px;
+    left: 240px;
+   
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+
+
+.icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+    transition: transform 0.3s, color 0.3s;
+    color: white;
+}
+
+
+.icon:hover {
+    color: purple;
+}
+
+
+.icon-pinterest {
+    color: red;
+}
+.icon-youtube {
+    color: #c4302b;
+}
+
+.icon-facebook {
+    color: 	#1877F2;
+}
+
+
+.image-container{
+  
+    width: 100%;
+    height: 60%;
+    max-width: 600px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 800px;
+    /* background-color: #c4302b; */
+
+    
+}
+
+.image-container a{
+font-family: "Gravitas One", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.image-container .text{
+
+
+font-family: "Playwrite IE", cursive;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+}
+
+.image-container .intro{
+ font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 200;
+font-style: normal; 
+
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 50%;
+   
+}
+
+
+.popup-icon {
+    font-size: 2.5em ;
+    font-size-adjust: 20%;
+    color: red;
+    opacity: 0;
+    transition: transform 0.3s ease ;
+    position: relative;
+    top: -60px;
+    /* bottom: 0%; */
+    /* left: 30%; */
+    padding: 5px 5px;
+   
+}
+
+.image:hover .popup-icon{
+    opacity: 1;
+    
+}
+
+
+i:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+
+
+.pre-topic{
+    font-size: 10px;
+    color: black;
+    
+
+}
+
+.text-container{
+    position: relative;
+    top: -30px;
+    width: 85%;
+    height: auto;
+    /* max-height: 250px; */
+    background-color: white;
+    border-radius: 2%;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    padding: 0px 5%;
+    transition: transform 0.3s ease ;
+}
+
+
+
+.text-container:hover{
+    transform: scale(1.02);
+}
+
+
+
+.recipe-link{
+font-size: 20px;
+font-weight: bold ;
+margin-top: 2%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.text-container a:hover{
+    color: purple;
+    transition: color 0.2s;
+    
+    }
+
+.text{
+    font-size: 15px;
+    margin-top: 2%; 
+}
+
+footer{  background-color: black;
+    height: auto;
+    width: auto;
+    padding-left: max(20%,30px);
+    padding-right: max(20%,30px);
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+/* .footer-content .icon{
+    color: white;
+    margin-right: 20px;
+} */
+
+
+.footer-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+   
+}
+
+.footer-content li{
+
+    list-style-type: none;
+    /* display: flex; */
+     /* text-align: center;
+    font-size: 10px; */
+
+} 
+
+.back-to-top{
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 0%;
+    color: black;
+
+}
+
+.back-to-top:hover{
+   background-color: #c4302b;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    
